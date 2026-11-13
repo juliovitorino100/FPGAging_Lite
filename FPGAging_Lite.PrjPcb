@@ -135,7 +135,41 @@ GenerateClassCluster=0
 DocumentUniqueId=IPTVLFIN
 
 [Document6]
-DocumentPath=01 - SCHEMATICS\04 - SRAM_FLASH.SchDoc
+DocumentPath=01 - SCHEMATICS\04 - FPGA_IO_MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YUBEJXCW
+
+[Document7]
+DocumentPath=01 - SCHEMATICS\05 - FPGA_IO_SRAM.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GYOMPJAM
+
+[Document8]
+DocumentPath=01 - SCHEMATICS\06 - SRAM_FLASH.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -151,8 +185,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MBTSSPJJ
 
-[Document7]
-DocumentPath=01 - SCHEMATICS\05 - MCU.SchDoc
+[Document9]
+DocumentPath=01 - SCHEMATICS\07 - MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -168,8 +202,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRJCMTEX
 
-[Document8]
-DocumentPath=01 - SCHEMATICS\06 - JTAG.SchDoc
+[Document10]
+DocumentPath=01 - SCHEMATICS\08 - JTAG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -185,8 +219,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KABADFBD
 
-[Document9]
-DocumentPath=01 - SCHEMATICS\07 - CONNECTOR_CSKB.SchDoc
+[Document11]
+DocumentPath=01 - SCHEMATICS\09 - CONNECTOR_CSKB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -202,42 +236,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZHISOYTZ
 
-[Document10]
-DocumentPath=01 - SCHEMATICS\05 - MCU.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document11]
-DocumentPath=01 - SCHEMATICS\04 - SRAM_FLASH.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [Document12]
-DocumentPath=01 - SCHEMATICS\02 - AUX_POWER_SUPPLIES.Harness
+DocumentPath=01 - SCHEMATICS\07 - MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -254,7 +254,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document13]
-DocumentPath=01 - SCHEMATICS\07 - CONNECTOR_CSKB.Harness
+DocumentPath=01 - SCHEMATICS\06 - SRAM_FLASH.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -271,7 +271,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=01 - SCHEMATICS\01 - POWER SUPPLY.Harness
+DocumentPath=01 - SCHEMATICS\02 - AUX_POWER_SUPPLIES.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -288,7 +288,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document15]
-DocumentPath=02 - PCB\PCB1.PcbDoc
+DocumentPath=01 - SCHEMATICS\09 - CONNECTOR_CSKB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -302,7 +302,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VCDMKFOK
+DocumentUniqueId=
 
 [Document16]
 DocumentPath=01 - SCHEMATICS\01 - POWER SUPPLY.Harness
@@ -322,7 +322,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document17]
-DocumentPath=01 - SCHEMATICS\02 - AUX_POWER_SUPPLIES.Harness
+DocumentPath=02 - PCB\PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -336,44 +336,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=VCDMKFOK
 
 [Document18]
-DocumentPath=01 - SCHEMATICS\04 - SRAM_FLASH.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document19]
-DocumentPath=01 - SCHEMATICS\05 - MCU.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document20]
-DocumentPath=01 - SCHEMATICS\07 - CONNECTOR_CSKB.Harness
+DocumentPath=gerar_documentacao.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
